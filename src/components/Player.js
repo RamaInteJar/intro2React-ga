@@ -1,9 +1,9 @@
 import React from "react";
 
-const Player = () => {
+const Player = (props) => {
   return (
     <div>
-      <h2>Player </h2>
+      <h2>Player {props.whichPlayer} </h2>
       <h3>Wins: </h3>
     </div>
   );
