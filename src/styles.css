@@ -60,6 +60,7 @@ h4 {
 .O {
   color: var(--aquamarine);
 }
+
 h1 {
   flex-basis: 60%;
   color: var(--react);
