@@ -1,10 +1,10 @@
 import React from "react";
 
-const Player = (props) => {
-  const {whichPlayer} = props
+const Player = ({name}) => {
+  
   return (
-    <div>
-      <h2>Player {whichPlayer} </h2>
+    <div className={name}>
+      <h2>Player: {name} </h2>
       <h3>Wins: </h3>
     </div>
   );
